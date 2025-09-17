@@ -1,0 +1,8 @@
+fastapi==0.112.2
+uvicorn[standard]==0.30.6
+requests==2.32.3
+pydantic==2.8.2
+PyMuPDF==1.24.10
+nest-asyncio==1.6.0
+llama-parse==0.5.15
+

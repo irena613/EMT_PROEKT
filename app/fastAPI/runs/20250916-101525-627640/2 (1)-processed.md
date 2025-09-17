@@ -1,0 +1,650 @@
+
+Check for updates
+
+# Hindawi
+
+# Complexity
+
+Volume 2021, Article ID 8812542, 18 pages
+
+https://doi.org/10.1155/2021/8812542
+
+# Review Article
+
+# A Review of Artificial Intelligence (AI) in Education from 2010 to 2020
+
+Xuesong Zhai1, Xiaoyan Chu1, Ching Sing Chai2, Morris Siu Yung Jong2, Andreja Istenic3,4,5, Michael Spector6, Jia-Bao Liu7, Jing Yuan8, and Yan Li1
+
+1Zhejiang University, Hangzhou 310058, China
+
+2Chinese University of Hong Kong, Hong Kong 999077, Hong Kong
+
+3University of Primorska, Faculty of Education, Koper 6000, Slovenia
+
+4University of Ljubljana, Faculty of Civil and Geodetic Engineering, Ljubljana 1000, Slovenia
+
+5Federal University of Kazan, Institute of Psychology and Education, Kazan 420008, Russia
+
+6University of North Texas, Denton 76207, USA
+
+7Anhui Jianzhu University, Hefei 230601, China
+
+8Anhui Xinhua University, Hefei 230088, China
+
+Correspondence should be addressed to Yan Li; yanli@zju.edu.cn
+
+Received 27 August 2020; Revised 18 January 2021; Accepted 2 April 2021; Published 20 April 2021
+
+Academic Editor: Ning Cai
+
+Copyright © 2021 Xuesong Zhai et al. This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
+This study provided a content analysis of studies aiming to disclose how artificial intelligence (AI) has been applied to the education sector and explore the potential research trends and challenges of AI in education. A total of 100 papers including 63 empirical papers (74 studies) and 37 analytic papers were selected from the education and educational research category of Social Sciences Citation Index database from 2010 to 2020. The content analysis showed that the research questions could be classified into development layer (classification, matching, recommendation, and deep learning), application layer (feedback, reasoning, and adaptive learning), and integration layer (affection computing, role-playing, immersive learning, and gamification). Moreover, four research trends, including Internet of Things, swarm intelligence, deep learning, and neuroscience, as well as an assessment of AI in education, were suggested for further investigation. However, we also proposed the challenges in education may be caused by AI with regard to inappropriate use of AI techniques, changing roles of teachers and students, as well as social and ethical issues. The results provide insights into an overview of the AI used for education domain, which helps to strengthen the theoretical foundation of AI in education and provides a promising channel for educators and AI engineers to carry out further collaborative research.
+
+# 1. Introduction
+
+The emergence of big data, cloud computing, artificial neural networks, and machine learning has enabled engineers to create a machine that can simulate human intelligence. Building on these technologies, this study refers to machines that are able to perceive, recognize, learn, react, and solve problems as artificial intelligence (AI) [1, 2]. Inevitably, such smart technologies will revolutionize the workplaces of the future [3]. Thus, while AI can interact and help humans perform at higher levels, it is emerging as the next disruptive innovation [4]. AI is currently viewed by many as a driver that is integral to the fourth industrial revolution, and it may trigger the fourth revolution in education. Learning about AI has also begun to be part of school curriculum [5, 6]. However, just as the emergence of television and computers was once touted to be game changers of education, they have been shown to in fact enhance access to information without substantially changing the core educational practices. Nonetheless, educators are obliged to review current AI capabilities and identify possible pathways to optimize learning. Given the increasing attention, it is timely to review recent AI research in education to provide educators with an updated understanding of the field as a preparation to possible changes.
+
+
+# Complexity
+
+AI has been increasingly propagated as having strategic value for education [7]. Loeckx [8] suggested that AI could be an effective learning tool that lessens the burdens of both teachers and students and offers effective learning experiences for students. Coupled with current education reforms such as the digitalization of educational resources, gamification, and personalized learning experiences, there are many opportunities for the development of AI applications in education. For example, the modelling potential of AI techniques has been exploited systematically to develop reactive and adaptive tutorials for the construction of individualized learning environments as compensation for the shortage of teachers through the use of intelligent tutoring systems (ITS) [10]. ITSs provide personalized learning experience in four main ways: monitoring student’s input, delivering appropriate tasks, providing effective feedback, and applying interfaces for human-computer communication [7]. When more ITSs are created for more subjects and topics, it is likely to change the role of teachers, and hence, schooling may need to be reconceptualized. There exist many concerns and worries among teachers on if AI challenges their jobs. At the same time, such questions as what is being learned and how AI is being used are being discussed currently by researchers as well as by educational practitioners. Some researchers wondered whether advancements in AI would challenge or even replace teachers since many other jobs are being replaced by automation [11]. There is an emerging recognition that teachers’ professional roles need to be adjusted as AI advances and this will trigger new organizational forms [12]. Emerging challenges also included students’ attitudes towards these changes [13]. To some extent, students as digital citizens are able to leverage AI to improve learning outcomes. Nonetheless, they may fail to use suitable AI techniques appropriately for a specific learning context, which would result in negative attitudes towards learning [14].
+
+To summarize, this research involves a review of the studies of AI in education. Previous studies have included three essential perspectives of AI in knowledge processing: (a) knowledge representation, (b) knowledge obtaining, and (c) knowledge derivation [3]; this review will focus on AI techniques and tools that have been integrated into education recently after the proliferation of AI. The “first generation” of AI could support human intellectual work by applying rule-based expert knowledge, and the “second generation” may find the optimal solution by statistical/search model, while the “third generation” will dramatically improve recognition performance based on the brain model. This review focuses on articles published in the period from 2010 to 2020 from the Web of Science, as that represents the period when the second and third generation of AI began to make headways into education. The research questions that guided this review are as follows:
+
+1. What is the overall state of AI in education? Which research topics and research designs related to AI in education are evident from 2010 to 2020?
+2. What are the trends in published studies in terms of AI in education?
+
+# 2. Method
+
+This study is a systematic literature review. The objectives of the review were to analyze and interpret findings based on predefined research questions (see above) and criteria which serve to point out future directions [15]. The predefined research foci as shown in Table 1 are research purpose, learning subject, educational level, research approach, and effects. The review was conducted in three stages: planning, performing, and reporting the systematic review.
+
+# 2.1. Planning the Review
+
+As previous reviews about AI were conducted in the physical sciences [16, 17], the study aimed to conduct a review in the field of the social sciences. The Web of Science database and the Social Science Citation Index (SSCI) journals were selected for the search for desired articles published from 2010 to 2020. Articles published in the SSCI database are generally considered as high-quality publication among education researchers. The keyword employed was “artificial intelligence,” and the subject area was refined to “education and educational research.” This process yielded 142 articles including 121 research articles, 10 review papers, one interview paper, and 5 book reviews. The selected articles include both analytic studies (primarily qualitative research) and empirical studies (primarily quantitative research).
+
+Emerging challenges also included students’ attitudes towards these changes [13]. To some extent, students as digital citizens are able to leverage AI to improve learning outcomes. Nonetheless, they may fail to use suitable AI techniques appropriately for a specific learning context, which would result in negative attitudes towards learning [14].
+
+# 2.2. Performing the Review
+
+Following Wu et al. [18], this study was conducted in two steps: identification and coding. In the first step, an article was selected to the potential pool when it qualified for either of two criteria: (a) the research involved a specific AI technique as an intervention in assisting learning or teaching and (b) it provided empirical evidence or in-depth analysis. As already noted, only articles indexed in SSCI were considered. It should be noted that studies that focused on the development processes of AI without educational implications or only adopted AI as a learning subject without the employment of AI were excluded from this review. Second, as for the analytic studies, only studies that discussed the effect of AI techniques on education were included. Each full text of all the identified papers was read and screened individually by three-panel members with doctoral degrees or professorships in the field of learning technology. Studies that did not fit clearly with the criteria were brought up for panel discussion. The screening process yielded 100 articles out of the original set of 121.
+
+In the second step, all the authors discussed thematic analysis principles and established a coding scheme in terms of how AI was used in education. Two main categories were investigated: research questions and technology adoption. Firstly, with regard to research questions, previous research has found three basic models of AI in knowledge processing: knowledge representation, knowledge obtaining, and knowledge derivation [3]. Building on that foundation, the
+
+
+
+
+# Complexity
+
+# Table 1: The articles coded by research question, technology adoption, learning subject, educational level, research approach, and effects.
+
+| ID | Authors                   | Research question | Technology adoption                     | Learning Subject                                                                                                | Educational level                                                          | Approach      | Effects                     |
+| -- | ------------------------- | ----------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------- | --------------------------- |
+| 1  | Chin et al. \[38]         | FEE               | Teachable agent                         | Science education                                                                                               | (study 1); teachers and 6ᵗʰ grade students (study 2)                       | 134           | EXP OUT\*                   |
+| 2  | Ngai et al. \[55]         | AFF               | Wearable biofeedback circuit            | Circuitry                                                                                                       | 7 to 9 grade students                                                      | QE, SUR       | OUT\*                       |
+| 3  | Wegerif et al. \[42]      | REA               | Intelligent matching-pattern algorithms | Online dialogue                                                                                                 | 100 undergraduates and 12 postgraduate students                            | DA            | OTH+                        |
+| 4  | Thomas and Young \[57]    | GAM               | Adaptive modelling                      | Educational game                                                                                                | 16 college graduates                                                       | EXP, SUR      | PER\*                       |
+| 5  | Yang et al. \[27]         | ADP               | Higher-order item response algorithm    | Elementary mathematics                                                                                          | 158 six graders in Taiwan                                                  | EXP           | PER+                        |
+| 6  | Moon et al. \[58]         | GAM               | Experience point data modelling         | Digital game                                                                                                    | 40 plays                                                                   | EXP           | PER+                        |
+| 7  | McLaren et al. \[54]      | AFF               | Intelligent tutoring system             | Chemistry                                                                                                       | 132 high school students                                                   | QE            | OUT\*                       |
+| 8  | Jones \[43]               |                   |                                         | Investigating decentralized theory of artificial intelligence                                                   |                                                                            |               | Exploring creative thinking |
+| 9  | Vattam et al. \[24]       | REA               | Visualization                           | Science education                                                                                               | 157 middle school students                                                 | QE            | OTH+                        |
+| 10 | Jonassen \[45]            |                   |                                         | Introducing an ask system: interactive learning system                                                          |                                                                            |               |                             |
+| 11 | Magnisalis et al. \[21]   |                   |                                         | Review of adaptive and intelligent systems for collaborative learning support: adaptive and intelligent systems |                                                                            |               |                             |
+| 12 | Albin-Clark et al. \[56]  | ROL               | Graphic simulation                      | Construction                                                                                                    | 4 early childhood lectures and many students                               | EXP, SUR      | PER+                        |
+| 13 | Wong and Looi \[59]       |                   |                                         | Exploring swarm intelligence                                                                                    |                                                                            |               |                             |
+| 14 | Seni \[60]                |                   |                                         | Investigating the relationship between neurosciences and organizational cognition                               |                                                                            |               |                             |
+| 15 | Lin et al. \[51]          | AFF               | Facial recognition                      | Digital art course                                                                                              | 20 adults                                                                  | EXP, SUR, INT | PER\*                       |
+| 16 | Heslep \[61]              |                   |                                         | Introspection to the misunderstandings of AI in education motivated by AI enthusiasts                           | About 500 Vietnamese                                                       |               |                             |
+| 17 | Nguyen and Yang \[28]     | MAT               | Extraction algorithm                    | Language learning                                                                                               | news on many kinds of mobile phone from 2009 to 2010                       | DA            | 0                           |
+| 18 | Tierney \[22]             | REC               | Natural language process                | Language learning                                                                                               | Five interviews were conducted generating over seven hours of recordings   | INT           | 0                           |
+| 19 | Lawler and Rushby \[4]    |                   |                                         | Interview with Rover Lawler to give comments on the effect of computer technique on AI in education             |                                                                            |               |                             |
+| 20 | Tüfekçi and Kose \[34]   | FEE               | Constraint-based modelling              | Programming                                                                                                     | 120 university students                                                    | EXP, SUR      | OUT+                        |
+| 21 | Zipitria et al. \[19]     | ADP               | Automatic discourse measure             | Language learning                                                                                               | 17 summaries written in Basque language                                    | EXP           | PER+                        |
+| 22 | Chin et al. \[39]         | REA               | Teachable agent                         | Kit-based science curriculum                                                                                    | 153 fourth grade students                                                  | QE            | OTH\*                       |
+| 23 | Mukherjee et al. \[30]    | FEE               | Text-to-diagram conversion              | Reading                                                                                                         | 12 pupils; 4 teachers; 2 technical professionals; 2 nontechnical persons   | QE            | OTH+                        |
+| 24 | Jain et al. \[41]         | FEE               | Visualization                           | History                                                                                                         | Two undergraduate classes in computer science                              | QE            | PER+                        |
+| 25 | Higgins and Heilman \[62] | REC               | Automated scoring system                | Language learning                                                                                               | Game team (not mentioned the educational level)                            |               | 0                           |
+| 26 | Melo et al. \[9]          | REC               | Computational organization              | Multidisciplines                                                                                                | 148 students involved were either in high school or in early college years | EXP           | PER\*                       |
+| 27 | Flogie and Abersek \[13]  | AFF               | Transdisciplinary pedagogy              | Natural science                                                                                                 | 100 students in 7ᵗʰ, 8ᵗʰ, 9th grades                                       | SUR           | OTH+                        |
+
+8503, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2021/8812542 by Republic of Macedonia Hinari NPL, Wiley Online Library on [23/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms‑and‑conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+# 4 Complexity
+
+# Table 1: Continued.
+
+| ID | Authors                  | Research question                                                                                         | Technology adoption                                                                  | Learning Subject            | Educational level                                                                                          | Approach | Eﬀects |
+| -- | ------------------------ | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------- | ---------------------------------------------------------------------------------------------------------- | -------- | ------ |
+| 28 | Rapanta and Walton \[40] | REA                                                                                                       | Argument map                                                                         | Emirati and Spanish classes | 205 university students                                                                                    | EXP      | OTH+   |
+|    | Nabiyev et al. \[29]     | CLA                                                                                                       | Intelligent tutoring system                                                          | Mathematical                | mathematics textbooks of Turkish Ministry of Education                                                     | DA       | 0      |
+| 30 | Loeckx \[8]              | Analytic essay of opportunities for AI used in educational data mining, adaptive learning, and creativity | Comparison of                                                                        | artiﬁcial networks,         |                                                                                                            |          |        |
+| 31 | Hor´ akov´ \[3]a et al.  | CLA                                                                                                       | classiﬁcation, regression trees, and decision trees                                  | Artiﬁcial neural networks   | 120 text fragments                                                                                         | QE, DA   | 0      |
+| 32 | Ijaz et al. \[14]        | IMM                                                                                                       | Virtual reality                                                                      | History                     | 60 undergraduate university students                                                                       | QE       | PER+   |
+| 33 | Liu et al. \[31]         | REC                                                                                                       | Intelligent tutoring system                                                          | Language learning           | 30 sports articles including 100 sentences                                                                 | DA       | 0      |
+| 34 | Malik and Ahmad \[32]    | DEE                                                                                                       | E-assessment system                                                                  | Engineering                 | 243 student of 8th graders                                                                                 | EXP      | 0      |
+| 35 | Malik et al. \[23]       | DEE                                                                                                       | assessment system                                                                    |                             | Microsoft Students’ QA Corpus                                                                              | DA       | 0      |
+| 36 | Peng \[63]               | CLA                                                                                                       | K-means algorithm, PageRank algorithm                                                | Online learning             | More than 700 scholars                                                                                     | EXP      | 0      |
+| 37 | MacIntyre et al. \[64]   | MAT                                                                                                       | Text minding software                                                                | Language learning           | 10 accomplished adult musicians and dancers                                                                | INT      | 0      |
+| 38 | Aoun \[65]               | Book review in terms of importance and limitation of AI in education                                      |                                                                                      |                             |                                                                                                            |          |        |
+| 39 | Williamson et al. \[33]  | Discussing the importance of neuroscience in education                                                    |                                                                                      |                             |                                                                                                            |          |        |
+| 40 | Munawar et al. \[35]     | FEE                                                                                                       | Intelligent virtual laboratory                                                       | E-laboratory environment    | 161 university students                                                                                    | SUR      | OTH∗   |
+| 41 | Samarakou et al. \[47]   | ADP                                                                                                       | Learning system on diagnosis, assistance, and evaluation                             | Telecommunication networks  | 28 students studying informatics                                                                           | EXP      | OTH+   |
+| 42 | Fenwick \[12]            | Pondering the transformation of teacher’ professional roles                                               |                                                                                      |                             |                                                                                                            |          |        |
+| 43 | Kessler \[44]            | Analytic essay of AI in the language teaching                                                             |                                                                                      |                             |                                                                                                            |          |        |
+| 44 | Petit et al. \[36]       | GAM                                                                                                       | Online educational programming platform                                              | Programming                 | 400 students and 12 teachers                                                                               | EXP      | OUT+   |
+| 45 | Kelly et al. \[37]       | DEE                                                                                                       | Question authenticity measuring system                                               | English and language arts   | transcripts of 451 observations from 112 classrooms and 132 high-quality audio recording from 27 classroom | DA       | 0      |
+| 46 | Ge et al. \[20]          | CLA                                                                                                       | Autonomous learning system                                                           | Sports                      | college are selected for PE testing. Samples of the 150 questions are collected                            | DA       | 0      |
+| 47 | Sun \[66]                | FEE                                                                                                       | Learning system                                                                      | Language learning           | questionnaires and 178 student questionnaires are obtained                                                 | QE, SUR  | OTH∗   |
+| 48 | Auerbach et al. \[67]    | IMM                                                                                                       | Robotic hardware and software platform                                               | Artiﬁcial Evolution         | 42 postgraduate students                                                                                   | EXP      | OUT∗   |
+| 49 | Boulet and Durning \[68] |                                                                                                           | Exploring online assessments system applied for the measurement in medical education |                             |                                                                                                            |          |        |
+
+8503, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2021/8812542 by Republic of Macedonia Hinari NPL, Wiley Online Library on [23/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms‑and‑conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+# Complexity
+
+# Table 1: Continued.
+
+| ID | Authors                     | Research question                                                                                     | Technology adoption                                                                                                                                         | Learning Subject                                                                    | Educational level                                                              | Approach | Effects |
+| -- | --------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------- | ------- |
+| 50 | Cukurova et al. \[69]       | REA                                                                                                   | Artificial intelligence and multimodal data                                                                                                                 | Debating skills                                                                     | audio recordings from candidates who have applied to become a tutor            | SUR, DA  | OTH+    |
+| 51 | Du Boulay \[70]             | ADP                                                                                                   | Intelligent tutoring systems (ITSs)                                                                                                                         | STEAM, conceptual understanding, and dialogue-based learning                        | (Not mentioned the educational level)                                          | EXP      | OTH∗    |
+| 52 | Hughes \[71]                | Review on papers about early self- and coregulation from artificial intelligence perspective included |                                                                                                                                                             |                                                                                     |                                                                                |          | 0       |
+| 53 | Kay and Kummerfeld \[72]    | FEE                                                                                                   | Learning system                                                                                                                                             | Lifelong and life-wide personal user models                                         | (Not mentioned the educational level)                                          |          | 0       |
+| 54 | Kitto and Knight \[73]      |                                                                                                       | Investigating three tensions in ethics when applying artificial intelligence and data analysis (AIDA) in education                                          |                                                                                     |                                                                                |          |         |
+| 55 | Luckin and Cukurova \[74]   | REA                                                                                                   | Learning sciences-driven AI                                                                                                                                 | Problem-solving, learning data, and debating                                        | Data in one case from high school                                              | EXP,INT  | OUT∗    |
+| 56 | Sellar and Gulson \[75]     | DEE                                                                                                   | AI and data science                                                                                                                                         | Education policy                                                                    | interviews with five senior policymakers, technical staff, and data scientists | INT      | 0       |
+| 57 | Sharma et al. \[76]         | ADP                                                                                                   | Online adaptive self-assessment procedure with multimodal data                                                                                              | Web technologies                                                                    | Thirty-two undergraduate students                                              | EXP      | 0       |
+| 58 | Wang and Wang \[77]         |                                                                                                       | Developing an artificial intelligence anxiety (AIA) scale                                                                                                   | Exploring the relationships between AIA and motivated learning behaviour            |                                                                                |          |         |
+| 59 | Webb et al. \[78]           |                                                                                                       | Discussing how time and temporality are used and inflected with the introduction of AI in education policy contexts                                         |                                                                                     |                                                                                |          |         |
+| 60 | Williams \[79]              |                                                                                                       | Analyzing implications of artificial intelligence, data analytics, and blockchain technology for the academy                                                | Learning analytics, AI                                                              |                                                                                |          |         |
+| 61 | Williamson \[80]            | FEE                                                                                                   | and other software for data collection                                                                                                                      | Higher education                                                                    | Higher education                                                               | SUR      | OUT+    |
+| 62 | Winters et al. \[81]        |                                                                                                       | Investigating the existing digital structural violence and the approaches to tackling it                                                                    |                                                                                     |                                                                                |          |         |
+| 63 | Rowe \[82]                  |                                                                                                       | Exploring the effect on education reform brought by intangible economy which is shaped by globalized datasets such as OECD PISA and artificial intelligence |                                                                                     |                                                                                |          |         |
+| 64 | Ally \[83]                  |                                                                                                       | Identifying the shaping forces for future education and competencies required by future digital teachers                                                    |                                                                                     |                                                                                |          |         |
+| 65 | Song and Wang \[84]         |                                                                                                       | Analyzing analysis of worldwide educational artificial intelligence research development in recent twenty years                                             |                                                                                     |                                                                                |          |         |
+| 66 | Ulum \[85]                  | FEE                                                                                                   | Versant English test                                                                                                                                        | English language learning                                                           | 30 students from a state university in Turkey                                  | DA,INT   | PER+    |
+| 67 | Costa-Mendes et al. \[86]   | REA                                                                                                   | Multilinear regression model                                                                                                                                | High school grades                                                                  | Educational data collection from preschool, primary, and high school           | EXP      | OUT+    |
+| 68 | Zhai et al. \[87]           |                                                                                                       | Investigating the factors impacting machine-human score agreements in machine learning-based science assessments                                            |                                                                                     |                                                                                |          |         |
+| 69 | Loftus and Madden \[88]     | FEE                                                                                                   | Bayesian networks                                                                                                                                           | Internet of Things                                                                  | First year students from Bachelor of Science in Computing program              | EXP      | OUT+    |
+| 70 | Breines and Gallagher \[89] |                                                                                                       | Introducing the application cases of teacherbot in the University of Edinburgh                                                                              |                                                                                     |                                                                                |          |         |
+| 71 | Campo et al. \[90]          | REA                                                                                                   | plug-in using a Bayesian network model                                                                                                                      | Computer science                                                                    | 45 university students                                                         | EXP      | OUT∗    |
+| 72 | Papadopoulos et al. \[91]   |                                                                                                       | Critically reviewing the research on the use of socially assistive robots (SARs) in the pretertiary classroom and its benefits and disadvantages            |                                                                                     |                                                                                |          |         |
+| 73 | Berendt et al. \[92]        |                                                                                                       | Examining benefits and risks of artificial intelligence (AI) in education in relation to fundamental human rights                                           | Teachers selected learning                                                          |                                                                                |          |         |
+| 74 | Standen et al. \[93]        | ADP                                                                                                   | The MaTHiSiS system                                                                                                                                         | material from a library to create their own learning activities and learning graphs | 67 participants aged between 6 and 18 years                                    | EXP      | OTH∗    |
+
+8503, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2021/8812542 by Republic of Macedonia Hinari NPL, Wiley Online Library on [23/07/2025]. See the Terms and Conditions https://onlinelibrary.wiley.com/terms‑and‑conditions on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License.
+
+
+
+
+# Complexity
+
+# Table 1: Continued.
+
+| ID  | Authors                           | Research question                                                                                                                                                                     | Technology adoption                                                                                                                    | Learning Subject                                                                                          | Educational level                                                                         | Approach | Eﬀects |
+| --- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------- | ------ |
+| 75  | Liu et al. \[94]                  | FEE                                                                                                                                                                                   | BP neural network                                                                                                                      | Undergraduate education                                                                                   | 870 observations have been collected from 5 consecutive academic years in one university  |          |        |
+| 76  | Knox \[6]                         | Analyzing the political economy of artiﬁcial intelligence (AI) and education in China, with government policy and private sector enterprise introduced                                |                                                                                                                                        |                                                                                                           |                                                                                           |          |        |
+| 77  | Cope et al. \[95]                 | FEE                                                                                                                                                                                   | CGScholar (Common Ground Scholar)                                                                                                      | Disciplinary knowledge                                                                                    | Students studying at the masters and doctoral levels                                      | EXP      | OUT∗   |
+| 78  | Westera et al. \[96]              | Reviewing the artiﬁcial intelligence (AI) for serious games, presenting reusable game AI components and their relevance for learning and teaching, AI approach, and application cases |                                                                                                                                        |                                                                                                           |                                                                                           |          |        |
+| 79  | Bonneton-Bott´ et al. \[97]       | FEE                                                                                                                                                                                   | \*e Kaligo, a digital notebook application                                                                                             | Handwriting                                                                                               | Kindergarten                                                                              | EXP      | OUT∗   |
+| 80  | Smutny and Schreiberova \[98]     | ROL                                                                                                                                                                                   | Chatbots                                                                                                                               | Disciplinary knowledge                                                                                    | (Not mentioned the educational level)                                                     | DA       | 0      |
+| 81  | Lucy et al. \[99]                 | DEE                                                                                                                                                                                   | Natural language processing                                                                                                            | History                                                                                                   | (Not mentioned the educational level)                                                     | EXP      | OTH∗   |
+| 82  | Yakubu et al. \[100]              | DEE                                                                                                                                                                                   | Artiﬁcial neural network (ANN)                                                                                                         | Learning management systems (LMS)                                                                         | 1116 students in four Nigerian universities                                               | SUR      | PER∗   |
+| 83  | Bonami et al. \[101]              | Analyzing the education through 21ˢᵗ-century skills and the impact of AI development in the age of platforms, taking research, application, and evaluation into consideration         |                                                                                                                                        |                                                                                                           |                                                                                           |          |        |
+| 84  | Ko´c-Januchta et al. \[102]       | DEE                                                                                                                                                                                   | Inquire Biology (artiﬁcial intelligence-enriched textbook)                                                                             | Biology                                                                                                   | 24 students from Stockholm University                                                     | EXP,SUR  | OUT∗   |
+| 85  | Tran and Meacheam \[118]          | Introducing four innovative projects that aim to extend learning management systems and improve the level of automation                                                               |                                                                                                                                        |                                                                                                           |                                                                                           |          |        |
+| 86  | Nye et al. \[103]                 | DEE                                                                                                                                                                                   | MentorPal                                                                                                                              | STEM                                                                                                      | 31 high school students                                                                   | SUR      | PER∗   |
+| 87  | Webb et al. \[104]                |                                                                                                                                                                                       |                                                                                                                                        | Investigating the implications of recent developments in machine learning for human learners and learning |                                                                                           |          |        |
+| 88  | Tsai et al. \[105]                | DEE                                                                                                                                                                                   | Deep neural networks                                                                                                                   | Disciplinary knowledge                                                                                    | 3552 students from a university in Taiwan                                                 | SUR      | 0      |
+| 89  | Alyahyan and Dustegor \[106]      |                                                                                                                                                                                       |                                                                                                                                        | Constructing guidelines to apply data mining techniques to predict student success                        |                                                                                           |          |        |
+| 90  | Renz and Hilbig \[107]            | Analyzing the drivers and barriers that currently aﬀect data-based teaching and learning paths from the perspective of EdTech companies                                               |                                                                                                                                        |                                                                                                           |                                                                                           |          |        |
+| 91  | Gulson and Witzenberger \[108]    | Investigating how automated education governance assemblage includes new forms of expertise and authority and constitutes EduTech as an important policy space                        |                                                                                                                                        |                                                                                                           |                                                                                           |          |        |
+| 92  | Kerimbayev et al. \[109]          | Review the research aimed at studying robot-man interaction, taking Russia and Kazakhstan as an example of the international cooperation in the sphere of robotics                    |                                                                                                                                        |                                                                                                           |                                                                                           |          |        |
+| 93  | Fu et al. \[110]                  | FEE                                                                                                                                                                                   | AI-enabled learning tools                                                                                                              | Language learning                                                                                         | 15 language learners                                                                      | INT,SUR  | PER+   |
+| 94  | Salas-Pilco \[111]                | Examining the use of artiﬁcial intelligence (AI) and robotics in learning designs from the perspective of learning sciences                                                           |                                                                                                                                        |                                                                                                           |                                                                                           |          |        |
+| 95  | Yıldız \[112]                     | FEE                                                                                                                                                                                   | SCM-AI                                                                                                                                 | Conceptualization performances                                                                            | 53 five-year-old and 49 seven-year-old Turkish monolingual children from a primary school | EXP      | OUT∗   |
+|     | 96                                | Tolsgaard et al. \[113]                                                                                                                                                               | Critically reviewing the published application and potential role of data science and machine learning in Health Professions Education |                                                                                                           |                                                                                           |          |        |
+| 97  | Hsu \[114]                        | DEE                                                                                                                                                                                   | AI Chatbot                                                                                                                             | English language learning                                                                                 | 30 university students                                                                    | EXP      | OTH∗   |
+| 98  | Wu et al. \[115]                  | CLA                                                                                                                                                                                   | Machine learning classiﬁcation model                                                                                                   | A hybrid advanced statistics course                                                                       | 24 university students                                                                    | EXP      | 0      |
+| 99  | Wang et al. \[116]                | ADP                                                                                                                                                                                   | Squirrel AI learning                                                                                                                   | Math                                                                                                      | 200 eighth grade students                                                                 | EXP      | OUT∗   |
+| 100 | Rybinski and Kopciuszewska \[117] | AFF                                                                                                                                                                                   | Natural language processing (NLP) models                                                                                               | Higher education                                                                                          | 640,349 reviews of 132 universities                                                       | EXP      | 0      |
+
+CLA: classiﬁcation; MAT: matching; REC: recommendation; DEE: deep learning; FEE: feedback; REA: reasoning; ADP: adaptive learning; AFF: aﬀection computing; ROL: role-playing; IMM: immersive learning; GAM: gamiﬁcation; EXP: experiment; QE: quasiexperiment; DA: discourse analysis; INT: interview; SUR: survey; OUT: outcome; PER: perception; OTH: others including aﬀection, critical thinking, and creativity. ∗: statistically significant change. +: recognizable change without conducting significance tests. 0: focus on algorithms test without examination of learning performance.
+
+8503, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2021/8812542 by Republic of Macedonia Hinari NPL, Wiley Online Library on [23/07/2025]. See the Terms and Conditions https://onlinelibrary.wiley.com/terms‑and‑conditions on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+
+Complexity
+
+Research questions of the sample papers were classified into three dimensions: (a) development, focusing on the knowledge presentation model; (b) extraction, centering on how to obtain knowledge from data mining; and (c) application, emphasizing the human-computer interaction through information derivation. Secondly, with regard to technology adoption, the focus was on the types of technology that the study adopted, which were further categorized into software (e.g., algorithms and programs) and hardware (e.g., sensors and devices such as virtual reality). It should be noted that a study with technology without an AI purpose in education was not included. A detailed description is shown in Table 1 and it includes learning subject, educational level, research approach, and effects. Moreover, the researchers conducted further frequency comparisons on the associations between the research purposes and some factors such as AI technology adoption as well as time periods to predict the trends and challenges of AI in education.
+
+Additionally, in terms of the matching/group formation modelling, prior research employing stereotype theory has assessed that the Bayesian networks, association rules, clustering, fuzzy C-means, and the fuzzy and genetic algorithms were well-accepted algorithms for the modelling of individual properties of the student. These techniques provide potential indications for the investigation of forming homogeneous and heterogeneous groups in an educational context.
+
+Moreover, the trends of the growing amount of data challenge educators to analyze qualitative data efficiently. Natural language processing (NLP) provided a means to diagnose the problem and make a recommendation by simplifying and accelerating the discovery of what lies within the data. However, the assessment of a complex educational system requires more profound information retrieval. The integration of multiple approaches, such as benchmark in NLP/Semantic Web field, was suggested to model smarter computer-aided systems in which agents could be trained automatically.
+
+To optimize the modelling in the learning context, the hierarchical structures were considered as potential solutions to model the educational system. This is because education is generally a complex system with the exhibition of subsystems and components, in which the invisible causal processes among subsystem/component behaviours would causally affect each other. It was suggested that systematic modelling should analyze three dimensions in the education context: learner’s variation, learning domains, and learning activities. For example, some researchers constructed the higher-order item response theory framework involving the overall ability at the first dimension and multiple domain abilities at the second dimension, which has been well adopted in the automatic problem-solving process.
+
+# 3. Findings and Discussion
+
+According to the above coding criteria and content analysis, the three dimensions of research questions are shown in Table 2 and the 72 studies from 63 empirical studies (5 papers have two studies and 2 papers have three studies) are further subclassified into 11 categories. There are 23 studies in the dimension of development. The AI technique was utilized as a development tool for the construction of a smart learning environment, which can be subclassified as focusing on the development of algorithms including classification, matching, recommendation, and deep learning for teaching and learning purposes. Additionally, 35 reviewed studies were found in the dimension of extraction, which referred to the application of developed AI techniques, normally based on algorithms, to offer students feedback, reasoning, and adaptive learning. 14 empirical studies were found in the dimension of application which consisted of affection computing, role-playing, immersive learning, and gamification. In the integration dimension, AI techniques included those involving human factors as vital variables to identify and analyze learners’ personalized features. In such studies, human-computer interaction was generated to improve such characteristics as creativity, responsibility, and critical thinking that can impact learners’ performances and perceptions.
+
+# 3.1. Dimension of Development
+
+As shown in Table 2, 16 empirical studies were found focusing on the development of education systems such as intelligent tutoring system (ITS) and electronic assessment. The development procedure was usually conducted with an induction-deduction approach, in which prior experiments and data were analyzed to predict the variables followed by the algorithm testing to obtain the final modelling equation.
+
+Based on the above and Nguyen and Yang’s suggestion, the aims of developing an AI-integrated system in education could be grouped into four types: classification (5 studies), matching (3 studies), recommendation (5 studies), and deep learning (10 studies). (1) Classification refers to the reconstruction of knowledge bases, in which the materials.
+
+
+
+# 8  Complexity
+
+|                       | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 |    |     |
+| --------------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | -- | --- |
+| Quantitative research | 4    | 6    | 3    | 3    | 5    | 1    | 2    | 8    | 7    | 13   | 20 | 72  |
+| Qualitative research  | 0    | 3    | 3    | 1    | 0    | 0    | 1    | 1    | 3    | 9    | 16 | 37  |
+| Total                 | 4    | 9    | 6    | 4    | 5    | 1    | 3    | 9    | 10   | 22   | 36 | 109 |
+
+# Quantitative research topics
+
+| Classification       | 1        | 2 | 1 | 1 | 5  |   |    |
+| -------------------- | -------- | - | - | - | -- | - | -- |
+| Development (N = 23) | Matching | 1 | 1 | 1 | 3  |   |    |
+| Recommendation       | 1        | 2 | 2 | 5 |    |   |    |
+| Deep learning        | 2        | 1 | 1 | 6 | 10 |   |    |
+| Feedback             | 1        | 1 | 2 | 2 | 3  | 7 | 16 |
+
+# Extraction (N = 24)
+
+| Reasoning         | 1 | 1 | 1 | 1 | 4 | 2 | 10 |
+| ----------------- | - | - | - | - | - | - | -- |
+| Adaptive learning | 1 | 1 | 1 | 4 | 2 | 9 |    |
+| Affect computing  | 1 | 1 | 1 | 1 | 1 | 1 | 6  |
+
+# Application (N = 12)
+
+| Role-playing       | 1 | 1 | 2 |   |
+| ------------------ | - | - | - | - |
+| Immersive learning | 1 | 1 | 2 |   |
+| Gamification       | 1 | 2 | 1 | 4 |
+
+# Figure 1: The hierarchy of artificial intelligence in educational implementation.
+
+(a) The dimension of system development, (b) the dimension of extraction, and (c) the dimension of application.
+
+8503, 2021, 1, Downloaded from Wiley Online Library on [23/07/2025]. See the Terms and Conditions (Wiley Online Library) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License.
+
+
+# Complexity
+
+could be categorized according to varied characteristics. (1) Based on Ohlsson’s theory, students can learn from the feedback generated as the result of an error [34]. In a physical teaching environment, the teacher could interact with students immediately as difficulties arise. It is, however, diﬃcult for such just-in-time interaction in an online context. The situation requires intelligent algorithms to provide feedback automatically. For example, with the help of pedagogical agent-based cognitive architecture, the intelligent virtual laboratory was developed to give appropriate feedback to students who encounter difficulties in the laboratory [35]. Besides, a learning website, Jutge.org, was developed with the features of a rich and well-organized problem repository. The website provides instant feedback and helps students to progressively solve problems and learn from their mistakes [36]. (2) Immediate feedback promotes active training in interactive learning environments that would benefit learner’s comprehension diagnosis [19]. The previous study combined speech recognition, natural language processing, and machine learning to measure the quality of classroom talk, in which new forms of interaction were created to provoke thoughts and further shape the effective interaction of the learning environment [32]. (4) Deep learning, or machine learning, is a comprehensive approach of big data processing and learning behaviour analysis. Based on the proliferation of big data in education, such as learning or teaching behaviour, the system could self-adjust to meet users’ dynamic requirements by upgrading its algorithms [33].
+
+To date, some studies have reported the lack of significant impact on improving teaching. The challenge was largely attributed to the weak pedagogical design and lack of appropriate assessment criteria [8]. Future research should therefore be grounded in learning theories so that more acceptable, accessible, and efficacious AI can be an integral part of learners’ lives.
+
+# 3.2. Dimension of Extraction.
+
+Educators have begun to explore suitable applications of AI techniques in their teaching. There are currently some AI applications that have achieved the integration of technique, domain knowledge, and pedagogical design. The three types of pedagogical applications of AI identified in this review were feedback (16 studies), reasoning (10 studies), and adaptive learning (9 studies). While these applications could be interlinked, they were categorized as such based on the classification explicated by the authors of the reviewed articles.
+
+# 3.2.1. Feedback.
+
+One of the challenges impairing personalized learning is the inappropriate sequencing of contents. The restructuring of presentation sequences is seeking a way to redefine the organization of knowledge according to the student’s reaction. In this situation, feedback is an important approach to meet learners’ proximal learning patterns [9]. Using an artificial neural network, the system provides immediate feedback according to students’ input to help them gradually get access to the abstract concepts and perform practical exercises. Besides, researchers perceived a positive trend towards the system, which may attribute to two perspectives.
+
+To help learners improve their reasoning, the graph structure [29] and learners’ engagement [24] techniques.
+
+8503, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2021/8812542 by Republic of Macedonia Hinari NPL, Wiley Online Library on [23/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms‑and‑conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+# 10 Complexity
+
+have been studied. For the graph structure, intelligent systems could be developed to make thinking visible. In a sense, the simulation approach of the AI technique was employed to mimic thoughts tracking the reasoning visually in real time. For example, the argument-mapping tools were designed to assist learners with visualization of the premises and conclusions of arguments. The findings showed that a sequence of connected arguments was chained together for learners to make an ultimate conclusion. Drawing from the sociocultural theories of learning in designing AI to support students’ reasoning, Vattam et al. reported that engaged learners could better understand the multiple levels of organization in complex systems. Therefore, students’ engagement is an essential aspect to be considered for the design of a learning system that aims to support reasoning.
+
+The hierarchical reasoning generated by the intelligent system had beneficial effects on students’ learning. Firstly, it may help learners to optimize the elucidation of the relationships between the subcomponents of a particular topic. In return, the intelligent reasoning system can be used as a form of evaluation to assess if the student has captured enough concepts for the given topic. Secondly, the system could provide an argumentative interaction which placed great significance in the construction of collaborative learning atmosphere. It is because, as a result of peers’ reasoning, learners tend to externalize their arguments and improve their premises. Jain et al. combined visualized mapping tool with collaboration scripts. The design successfully helped learners to analyze and evaluate opposing positions on contentious topics. Generally, researchers regarded the reasoning visualization tools as valuable scaffolds to develop learners’ critical thinking and writing.
+
+However, using AI techniques, including visualization and hierarchical reasoning modelling, may be inadequate to support reasoning. The four studies reviewed focused on the utilization of modelling to support general reasoning, while the reasoning model should be largely domain-specific. Moreover, there is an unresolved challenge in coding learners’ behaviours as far as AI-supported reasoning is concerned. The reasoning process may be more effective when learners’ personalized performance is considered. Although the visualized reasoning tools could perform well in a small-scale group setting, it is difficult to obtain adequate reasoning analysis of the data from a large population because the reasoning system fails to adjust itself automatically. Therefore, the requirements of dealing with increasingly large and diverse data demand self-adaptive alternatives.
+
+# 3.3. Dimension of Application
+
+The dimension of application highlights the importance of including human affection in the application of AI in education. The latest research has indicated that affection had increasingly been reported to exert a significant influence on decision-making, perception, and learning. Previous studies on the measurement of learning performance only focused on two dimensions: learning outcomes (e.g., scoring and achievement) and perceptions (e.g., satisfaction and acceptance), whereas other aspects were less noticed. Based on the maturity of biofeedback technique, such as eye-tracking and EEG, affection computing was increasingly adopted to investigate students' internal motivations on learning, such as creativity and responsibility.
+
+
+
+
+# Complexity
+
+According to the content analysis of the selected papers shown in Table 1, there are five typical AI techniques that supported affection computing and analysis in the education sector. They are complex algorithms, visualization, XR (virtual/augmented/mixed reality), wearable technique, and neuroscience. In many situations, they supported each other to construct a smart learning environment and system.
+
+# (1) Complex Algorithms
+
+Complex algorithms were designed with consideration of human factors rather than the simple combination of functional blocks. From the perspective of human-computer interaction, the learners should be treated as a knowledge creator rather than the receiver, which helps to generate positive affection status. From the perspective of presentation modes, the traditional declarative statements in a computer system should be replaced by more diversified verbal presentations such as dialogue, coaching, and generality.
+
+# (2) Visualization
+
+Visualization was seen as an optimal method chosen for the solution of complex conception. One of the benefits of visualization is making complex knowledge entertaining, such as game-based learning, in which learners’ motivation will be greatly generated.
+
+# (3) XR
+
+XR including virtual/augmented/mixed reality provides a highly simulated learning context, which may be challenging to realize in physical classrooms. For example, to help learners understand complex landforms in geography, XR indulges students into a lively and creative status.
+
+# (4) Wearable Technique
+
+The wearable technique, such as Google glasses, helps to integrate learning activity into somatosensory moves. Although it was still in an exploratory period, it has great potential to advance domain knowledge in a practical context in daily life.
+
+# (5) Modern Neuroscience
+
+Modern neuroscience exploits how the brain works and this expands the research of learning to include the learners’ physiological state. Research in this area would enrich understanding about individual variations and could provide additional avenues to match instruction with the most optimal guidance. Using immersive learning may also reduce students’ sense of being intimidated by complex topics and technical concepts when they expose to simulated technological and computing issues.
+
+# 3.3.2. The Categories of the Application Dimension
+
+With the supports of the above five AI techniques, four types of learning models were generated with the application of affection analysis, which was biofeedback (6 studies), role-playing (2 studies), immersive learning (2 studies), and gamification (4 studies).
+
+Affect computing refers to the analysis of human emotions and feelings captured by physical sensors and affective algorithms, which has gained much attention in recent years. Affect computing enhanced human-computer interaction. Based on the facial identification, some researchers improved the intelligent tutoring system by which students’ emotional status was detected to give them timely emotional feedback.
+
+Two essential aspects are needed to optimize the affection computing technique: first, teachers have to make timely appropriate instructional adjustments according to learners’ affective status; second, comprehensive operation of multimode affection sources as a single source is unlikely to provide accurate analysis of affection.
+
+For example, the eye-tracking technique could capture learners’ eye fixation to track the attended area, but the collateral emotion would help them better understand the specific content knowledge.
+
+
+
+
+12
+
+# Complexity
+
+Another example employed a game reward system as motivational mechanisms to promote voluntary and proactive learning. The results showed that the reward system had a desirable fit with the pedagogical design, and the future educational algorithms might better get associated with the field of artificial intelligence to motivate emergent learning [58].
+
+# Table 3: Qualitative research topics.
+
+2020
+(1) AI research development in recent twenty years
+(2) Machine learning-based science assessments
+(3) Application cases of teacherbot
+(4) Socially assistive robots (SARs)
+(5) AIED in relation to fundamental human rights
+(6) Political economy of AI and education
+(7) AI for serious games
+(8) Impact of AI development in the age of platforms
+(9) Innovative projects extending LMS
+(10) Machine learning
+(11) Data mining techniques
+(12) Data-based teaching and learning paths
+(13) Automated education governance assemblage
+(14) Robot-human interaction
+(15) AI and robotics in learning designs
+(16) Data science and machine learning
+2019
+(1) Assessment system
+(2) Early self- and coregulation from AI perspective
+(3) Ethical tension about applying AIDA in education
+(4) Artificial Intelligence Anxiety (AIA) Scale
+(5) AI in education policy contexts
+(6) AI, data analytics, and blockchain technology
+(7) Digital structural violence
+(8) Intangible economy
+(9) Future education and digital teachers
+2018
+(1) Neuroscience in education
+(2) Teacher’ professional roles
+2017
+(1) Human literacy
+2016
+(1) Educational data mining, adaptive learning, and creativity
+2013
+(1) Effect of AI in education
+2012
+(1) Swarm intelligence
+(2) Neurosciences in Edu
+(3) Misunderstandings of AI in Edu
+2011
+(1) Decentralized theory
+(2) Interactive learning
+
+# 4. The Research Trends of AI in Education
+
+# 4.1. Technology Adoption of Internet of Things.
+
+The existing research mainly focused on the virtual online system, and the Internet of Things (IoT) is less noticed. Learners’ biofeedback also needs to be explored in future educational research. According to the reviewed papers, a majority of AI technology in education focused on online information technology or system (107 out of 109), such as intelligent tutoring system, intelligent virtual laboratory, and assessment system. Only one study [55] employed a wearable circuit to examine learners’ biofeedback. This may be attributed to the fact that the intelligent online system is well established, easier to build on, and cost-effective. However, to cater to diverse learning contents and varied learning skills, the IoT holds much promise. It may enhance students’ spatial and mechanical understanding of physical construction processes in science education. The IoT technology can simulate brain functions in physical context to sense and understand human’s cognitive behaviours, which apparently optimizes human cognition and performance in two qualitative studies [33, 60]. Although no empirical studies in the selected papers were found to test the effect of IoT technique on education, the IoT with affordable costs and wearable computing devices could be a potential area of future development of AI in education. This is consistent with the Horizon report in 2019.
+
+# 4.2. Swarm Intelligence in Education.
+
+Swarm intelligence has become a vital development direction of AI, where the roles of teachers and students will be disruptively changed. According to the selected papers, the decentralized theory was firstly investigated in education in 2011 [43], followed by the introduction of swarm intelligence in education in 2012 [59]. However, no empirical study has explored how teachers and students meet the challenges brought by swarm intelligence. It is predicted that the following two topics may become the research trends according to the features of swarm intelligence. Firstly, swarm intelligence does not rely on centralized control of individual behaviours. In this situation, learners change from knowledge absorbers to creators. They actively constructed knowledge by interfacing with the system in a variety of contexts. Teachers’
+
+8503, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2021/8812542 by Republic of Macedonia Hinari NPL, Wiley Online Library on [23/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms‑and‑conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+
+Complexity
+
+“authorities” may be challenged by a group of experienced practitioners such as engineers and farmers, and a collaborative curriculum design would be constructed by swarm intelligence system [45]. Moreover, swarm intelligence may change teachers’ duties from knowledge transmission to knowledge organization. Previous research has suggested the exploration of crowdfunding or crowdsourcing by teachers on education, and how teachers perform their organizing ability in the future [5]. However, as Figure 2 presents, the investigation from teachers’ perspective is still inadequate, which needs further study. Secondly, swarm intelligence facilitated adaptivity in dynamic or unstable environments. Swarm agents usually exchange information by leaving marks and observing the activities of their peers. For example, the best solution in the current moment may become unavailable in the next moment. Therefore, it is suggested to invest further how AI performs dynamic recommendation for students on different learning progress [59].
+
+# 5. The Challenges AI Confronted in Education
+
+AI is a promising field that faces many technology bottlenecks. The challenges would be more complex and intricate, especially when they are connected to an application in education. The challenges this review identifies could be classified into three categories: technique, teachers and students, and social ethics.
+
+# 4.3. Deep Learning and Neurocomputation
+
+Deep learning or machine learning will reshape the interactions between human beings and machines in the future. The trends of human-computer interaction will no longer be based on the perspective of machine operation by a human. Instead, the machine can improve predictions by learning from big data without being specifically programmed. Two studies on deep learning were first mentioned in the selected papers in 2017 [23, 32]. In 2018, one empirical study [37] was published and it focused the deep learning technology on the modelling of scoring-based data. However, the data based on human’s physical features were less noticed. Based on the basis of neuroscientific understanding of the brain, Pearson and IBM have proposed to investigate neurocomputation brain-based educational technologies [33]. However, only two qualitative studies [33, 60] suggested the integration of neuroscience and AI in the education sector. Future research trends in integrating brain function with deep learning techniques to optimize human-computer interaction could be expected. It will influence the application and integration of AI in education, such as adaptive learning and role-play. This view has been reported in the Horizon report in 2018. Specifically, the report forecasts that adaptive learning techniques will be further generalized in two to three years.
+
+# 4.4. Evaluation of AI in Education
+
+All empirical studies reviewed presented the positive effects of AI techniques on education (see Table 1). However, the interview and the review paper have, respectively, surfaced the challenges or misunderstanding of AI in education [4, 21]. There is a need to articulate a holistic evaluation criterion to measure the effectiveness of AI in education. To ensure the validity and reliability of the evaluation, a multidimensional model should be adopted, which includes technique, pedagogical design, domain knowledge, and human factors. Woolf’s [119] Roadmap for Education Technology predicted that in the era of AI Educational Data Mining, the lifelong assessment of students’ knowledge, their progress, and the results of data analysis should be considered. However, individual student data may be exposed, shared, or used inappropriately. It is a constantly mindful challenge that educators and AI engineers will face when considering how we access, evaluate, and share the big data. Another ethical debate was conspicuously found in gamification that emphasis should be put on learning and tend to “suck the fun out” of games, or on gameplay “suck out the learning” [57].
+
+
+
+
+
+# Complexity
+
+| 0  | Preschool students | Primary school students | Middle school students | College students  | Adults                               | Others |
+| -- | ------------------ | ----------------------- | ---------------------- | ----------------- | ------------------------------------ | ------ |
+| 0  | Science            | Humanities              | Arts                   | Special education | Multidisciplines and social sciences |        |
+| 5  | 16                 | 24                      | 28                     | 20                | 15                                   | 10     |
+| 12 | 8                  | 4                       |                        |                   |                                      |        |
+
+Figure 2: The number of reviewed studies by educational level and subjects.
+
+# 6. Conclusions
+
+Given the rapid growth of AI, there is an urgent need to understand how educators can best utilize AI techniques for the academic success of students. This paper reviewed AI in education research from 2010 to 2020. It is found that the research to date could be classified into three dimensions: the dimension of development including classification, matching, recommendation, and deep learning; the dimension of extraction involving feedback, reasoning, and adaptive learning; and the dimension of application including affection computing, role-playing, immersive learning, and gamification. Moreover, based on the research questions and the related AI techniques, four research trends were identified. They are the Internet of Things, swarm intelligence, deep learning, and neuroscience, as well as an assessment of the effect of AI in education. The challenges of AI in education were also conspicuously seen in terms of technique perspective, teachers’ and students’ roles, and social ethical issues. These findings could be valuable references for educational researchers, students, and AI developers who plan to contribute to the relevant studies. Furthermore, it seems clear that educators need to work with AI engineers to address the gaps between technique and pedagogy.
+
+# Data Availability
+
+The content analysis data used to support the findings of this study are included within the article.
+
+# Conflicts of Interest
+
+The authors declare that they have no conflicts of interest to report regarding the present study.
+
+# Acknowledgments
+
+This research work was supported by the 2020 Humanities and Social Science Projects of the Ministry of Education (Grant ID: 20YJC880118), National Science Funding of China (Grant ID: 61977057), 2019 National Social Science Funding of China (19ZDA364), and the project of Informatization Capability in University Governance System, Chinese Association of Higher Education, 2020 (Grant no. 2020ZDWT18).
+
+# 7. Limitations and Future Study
+
+Although this review does propose some valuable trends and potential research directions for AI in education, there exist several limitations. Firstly, the papers reviewed in this study were filtered from Social Science Citation Index, while other databases on natural science (e.g., SCOPUS and EI) and sources (e.g., reports, news, conference papers, and patents) could be involved to offer a more comprehensive overview in this field. For instance, articles from the International Journal of Artificial Intelligence in Education that has published 30 volumes were not considered. This review therefore is limited only to SSCI articles. Additionally, the initial search could be extended using more keywords such as adaptive learning and tutor system, which may lead to the discovery of additional relevant studies.
+
+# References
+
+- [1] K. Kumar and G. S. M. Takur, “Advanced applications of neural networks and artificial intelligence: A review,” International journal of information technology and computer science, vol. 4, no. 6, pp. 57–68, 2012.
+- [2] J. M. Spector and D. J. Muraida, Automating Instructional Design: Concepts and Issues, Educational Technology Publications, Englewood Cliffs, NJ, USA, 1993.
+
+
+
+
+# Complexity
+
+1. T. Horakova, M. Houska, and L. Domeova, “Classification of the educational texts styles with the methods of artificial intelligence,” Journal of Baltic Science Education, vol. 16, no. 3, pp. 324–336, 2017.
+2. R. W. Lawler and N. Rushby, “An interview with Robert Lawler,” British Journal of Educational Technology, vol. 44, no. 1, pp. 20–30, 2013.
+3. Dai, C. S. Chai, P. Y. Lin et al., “Promoting students’ well-being by developing their readiness for the artificial intelligence age,” Sustainability, vol. 12, no. 16, pp. 1–15, 2020.
+4. J. Knox, “Artificial intelligence and education in China,” Learning, Media and Technology, vol. 45, no. 3, pp. 1–14, 2020.
+5. A. Seldon and O. Abidoye, The Fourth Education Revolution, pp. 1–14, University of Buckingham Press, London, UK, 2018.
+6. J. Loeckx, “Blurring boundaries in education: context and impact of MOOCs,” The International Review of Research in Open and Distributed Learning, vol. 17, no. 3, pp. 92–121, 2016.
+7. F. R. Melo, E. L. Flores, S. D. Carvalho, R. A. G. Teixeira, F. B. Loja, and R. de Sousa Gomide, “Computational organization of didactic contents for personalized virtual learning environments,” Computers &#x26; Education, vol. 79, pp. 126–137, 2014.
+8. B. Boulay, “Artificial intelligence as an effective classroom assistant,” IEEE Intelligent Systems, vol. 31, no. 6, pp. 76–81, 2016.
+9. M. Lacity and L. P. Willcocks, Robotic Process Automation and Risk Mitigation: The Definitive Guide, SB Publishing, Ashford, UK, 2017.
+10. T. Fenwick, “Pondering purposes, propelling forwards,” Studies in Continuing Education, vol. 40, no. 3, pp. 367–380, 2018.
+11. A. Flogie and B. Aberšek, “Transdisciplinary approach of science, technology, engineering and mathematics education,” Journal of Baltic Science Education, vol. 14, no. 6, pp. 779–790, 2015.
+12. K. Ijaz, A. Bogdanovych, and T. Trescak, “Virtual worlds vs books and videos in history education,” Interactive Learning Environments, vol. 25, no. 7, pp. 904–929, 2017.
+13. B. Kitchenham, P. Pretorius, D. Budgen et al., “Systematic literature reviews in software engineering–a tertiary study,” Information and Software Technology, vol. 52, no. 8, pp. 792–805, 2010.
+14. R. Trescak, B. Yang, E. Zio, and X. Chen, “Artificial intelligence for fault diagnosis of rotating machinery: a review,” Mechanical Systems and Signal Processing, vol. 108, pp. 33–47, 2018.
+15. Z. Wang and R. S. Srinivasan, “A review of artificial intelligence based building energy use prediction: contrasting the capabilities of single and ensemble prediction models,” Renewable and Sustainable Energy Reviews, vol. 75, pp. 796–808, 2017.
+16. Y.-T. Wu, H.-T. Hou, F.-K. Hwang et al., “A review of intervention studies on technology-assisted instruction from 2005–2010,” Journal of Educational Technology &#x26; Society, vol. 16, no. 3, pp. 191–203, 2013.
+17. I. Zipitria, A. Arruarte, and J. Elorriaga, “Discourse measures for Basque summary grading,” Interactive Learning Environments, vol. 21, no. 6, pp. 528–547, 2013.
+18. X. Ge, Y. Yin, and S. Feng, “Application research of computer artificial intelligence in college student sports,” 8503, 2021.
+
+
+
+
+# Complexity
+
+laboratory for eLearning technology,” Eurasia Journal of Mathematics, Science and Technology Education, vol. 14, no. 5, pp. 1645–1662, 2018.
+
+[36] J. Petit, S. Roura, J. Carmona et al., “Jutge.org: characteristics and experiences,” IEEE Transactions on Learning Technologies, vol. 11, no. 3, pp. 321–333, 2018.
+
+[37] S. Kelly, A. M. Olney, P. Donnelly, M. Nystrand, and S. K. D’Mello, “Automatically measuring question authenticity in real-world classrooms,” Educational Researcher, vol. 47, no. 7, pp. 451–464, 2018.
+
+[38] D. B. Chin, I. M. Dohmen, B. H. Cheng, M. A. Oppezzo, C. C. Chase, and D. L. Schwartz, “Preparing students for future learning with teachable agents,” Educational Technology Research and Development, vol. 58, no. 6, pp. 649–669, 2010.
+
+[39] D. B. Chin, I. M. Dohmen, and D. L. Schwartz, “Young children can learn scientific reasoning with teachable agents,” IEEE Transactions on Learning Technologies, vol. 6, no. 3, pp. 248–257, 2013.
+
+[40] C. Rapanta and D. Walton, “The use of argument maps as an assessment tool in higher education,” International Journal of Educational Research, vol. 79, pp. 211–221, 2016.
+
+[41] G. P. Jain, V. P. Gurupur, J. L. Schroeder, and E. D. Faulkenberry, “Artificial intelligence-based student learning evaluation: a concept map-based approach for analyzing a student’s understanding of a topic,” IEEE Transactions on Learning Technologies, vol. 7, no. 3, pp. 267–279, 2014.
+
+[42] R. Wegerif, B. M. McLaren, M. Chamrada et al., “Exploring creative thinking in graphically mediated synchronous dialogues,” Computers &#x26; Education, vol. 54, no. 3, pp. 613–621, 2010.
+
+[43] A. Jones, “Philosophical and socio-cognitive foundations for teaching in higher education through collaborative approaches to student learning,” Educational Philosophy and Theory, vol. 43, no. 9, pp. 997–1011, 2011.
+
+[44] G. Kessler, “Technology and the future of language teaching,” Foreign Language Annals, vol. 51, no. 1, pp. 205–218, 2018.
+
+[45] D. H. Jonassen, “Ask systems: interrogative access to multiple ways of thinking,” Educational Technology Research and Development, vol. 59, no. 1, pp. 159–175, 2011.
+
+[46] E. Walker, N. Rummel, and K. R. Koedinger, “Beyond explicit feedback: new directions in adaptive collaborative learning support,” in Proceedings of the 9th International Conference on Computer Supported Collaborative Learning, vol. 1, Maratea, Italy, June 2009.
+
+[47] M. Samarakou, G. Tsaganou, and A. Papadakis, “An E-learning system for extracting text comprehension and learning style characteristics,” Journal of Educational Technology &#x26; Society, vol. 21, no. 1, pp. 126–136, 2018.
+
+[48] M. B. Ammar, M. Neji, A. M. Alimi, and G. Gouard` aﬀective tutoring system,” Expert Systems with Applications, vol. 37, no. 4, pp. 3013–3023, 2010.
+
+[49] I. Arroyo, D. G. Cooper, W. Burleson, B. P. Woolf, K. Muldner, and R. Christopherson, “Emotion sensors go to school,” Artificial Intelligence in Education, vol. 200, pp. 17–24, 2009.
+
+[50] K. Floyd, J. A. Hess, L. A. Miczo, K. K. Halone, A. C. Mikkelson, and K. J. Tusing, “Human affection exchange: VIII. Further evidence of the benefits of expressed affection,” Communication Quarterly, vol. 53, no. 3, pp. 285–303, 2005.
+
+[51] H.-C. K. Lin, C.-H. Wang, C.-J. Chao, and M.-K. Chien, “Employing textual and facial emotion recognition to design an affective tutoring system,” Expert Systems with Applications, vol. 37, no. 4, pp. 3013–3023, 2010.
+
+[52] X. Zhai, Q. Fang, Y. Dong et al., “The effects of biofeedback-based stimulated recall on self-regulated online learning: a gender and cognitive taxonomy perspective,” Journal of Computer Assisted Learning, vol. 34, no. 6, pp. 775–786, 2018.
+
+[53] C. C. Chase, D. B. Chin, M. A. Oppezzo, and D. L. Schwartz, “Teachable agents and the protégé effect: increasing the effort towards learning,” Journal of Science Education and Technology, vol. 18, no. 4, pp. 334–352, 2009.
+
+[54] B. M. McLaren, K. E. DeLeeuw, and R. E. Mayer, “Polite web-based intelligent tutors: can they improve learning in classrooms?” Computers &#x26; Education, vol. 56, no. 3, pp. 574–584, 2011.
+
+[55] G. Ngai, S. C. F. Chan, J. C. Y. Chan, and W. W. Y. Lau, “Deploying a wearable computing platform for computing education,” IEEE Transactions on Learning Technologies, vol. 3, no. 1, pp. 45–55, 2010.
+
+[56] A. Albin-Clark, T. L. J. Howard, and B. Anderson, “Real-time computer graphics simulation of blockplay in early childhood,” Computers &#x26; Education, vol. 57, no. 4, pp. 2496–2504, 2011.
+
+[57] J. M. Thomas and R. M. Young, “Annie: automated generation of adaptive learner guidance for fun serious games,” IEEE Transactions on Learning Technologies, vol. 3, no. 4, pp. 329–343, 2010.
+
+[58] M.-K. Moon, S.-G. Jahng, and T.-Y. Kim, “A computer-assisted learning model based on the digital game exponential reward system,” Turkish Online Journal of Educational Technology-TOJET, vol. 10, no. 1, pp. 1–14, 2011.
+
+[59] L.-H. Wong and C.-K. Looi, “Swarm intelligence: new techniques for adaptive systems to provide learning support,” Interactive Learning Environments, vol. 20, no. 1, pp. 19–40, 2012.
+
+[60] D. A. Seni, “Do the modern neurosciences call for a new model of organizational cognition?” Science &#x26; Education, vol. 21, no. 10, pp. 1485–1506, 2012.
+
+[61] R. D. Heslep, “Education for computers,” Studies in Philosophy and Education, vol. 31, no. 4, pp. 357–364, 2012.
+
+[62] D. Higgins and M. Heilman, “Managing what we can measure: quantifying the susceptibility of automated scoring systems to gaming behavior,” Educational Measurement: Issues and Practice, vol. 33, no. 3, pp. 36–46, 2014.
+
+[63] W. Peng, “Research on online learning behavior analysis model in big data environment,” Eurasia Journal of Mathematics, Science and Technology Education, vol. 13, no. 8, pp. 5675–5684, 2017.
+
+[64] P. D. MacIntyre, S. C. Baker, and H. Sparling, “Heritage passions, heritage convictions, and the rooted L2 self: music and Gaelic language learning in Cape Breton, Nova Scotia,” The Modern Language Journal, vol. 101, no. 3, pp. 501–516, 2017.
+
+[65] J. E. Aoun, Robot-proof: Higher Education in the Age of Artificial Intelligence, MIT Press, Cambridge, MA, USA, 2017.
+
+[66] Y. Sun, “Construction and effect evaluation of Russian wisdom classroom teaching model under the background of ‘the belt and road’” Kuram Ve Uygulamada Egitim Bilimleri, vol. 18, no. 6, pp. 3477–3485, 2018.
+
+[67] J. E. Auerbach, A. Concordel, P. M. Kornatowski, and D. Floreano, “Inquiry-based learning with Robogen: an open-source software and hardware platform for robotics.
+
+8503, 2021, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2021/8812542 by Republic of Macedonia Hinari NPL, Wiley Online Library on [23/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms‑and‑conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+
+# Complexity
+
+and artificial intelligence,” IEEE Transactions on Learning Technologies, vol. 12, no. 3, pp. 356–369, 2018.
+
+[68] J. R. Boulet and S. J. Durning, “What we measure . . . and what we should measure in medical education,” Medical Education, vol. 53, no. 1, pp. 86–94, 2019.
+
+[69] M. Cukurova, C. Kent, and R. Luckin, “Artificial intelligence and multimodal data in the service of human decision-making: a case study in debate tutoring,” British Journal of Educational Technology, vol. 50, no. 6, pp. 3032–3046, 2019.
+
+[70] B. Du Boulay, “Escape from the Skinner Box: the case for contemporary intelligent learning environments,” British Journal of Educational Technology, vol. 50, no. 6, pp. 2902–2919, 2019.
+
+[71] C. Hughes, “How do parents guide children towards ‘playing to learn’? Reflections on four studies in a special issue on self- and co-regulation in early childhood,” Metacognition and Learning, vol. 14, no. 3, pp. 315–326, 2019.
+
+[72] J. Kay and B. Kummerfeld, “From data to personal user models for life-long, life-wide learners,” British Journal of Educational Technology, vol. 50, no. 6, pp. 2871–2884, 2019.
+
+[73] K. Kitto and S. Knight, “Practical ethics for building learning analytics,” British Journal of Educational Technology, vol. 50, no. 6, pp. 2855–2870, 2019.
+
+[74] R. Luckin and M. Cukurova, “Designing educational technologies in the age of AI: a learning sciences-driven approach,” British Journal of Educational Technology, vol. 50, no. 6, pp. 2824–2838, 2019.
+
+[75] S. Sellar and K. N. Gulson, “Becoming information centric: the emergence of new cognitive infrastructures in education policy,” Journal of Education Policy, pp. 1–18, 2019.
+
+[76] K. Sharma, Z. Papamitsiou, and M. Giannakos, “Building pipelines for educational data using AI and multimodal analytics: a ‘grey-box’ approach,” British Journal of Educational Technology, vol. 50, no. 6, pp. 3004–3031, 2019.
+
+[77] Y.-Y. Wang and Y.-S. Wang, “Development and validation of an artificial intelligence anxiety scale: an initial application in predicting motivated learning behavior,” Interactive Learning Environments, pp. 1–16, 2019.
+
+[78] M. E. Webb, A. Fluck, J. Magenheim et al., “Machine learning for human learners: opportunities, issues, tensions and threats,” Educational Technology Research and Development, pp. 1–22, 2020.
+
+[79] P. Williams, “Does competency-based education with blockchain signal a new mission for universities?” Journal of Higher Education Policy and Management, vol. 41, no. 1, pp. 104–117, 2019.
+
+[80] B. Williamson, “Policy networks, performance metrics and platform markets: charting the expanding data infrastructure of higher education,” British Journal of Educational Technology, vol. 50, no. 6, pp. 2794–2809, 2019.
+
+[81] N. Winters, R. Eynon, A. Geniets, J. Robson, and K. Kahn, “Can we avoid digital structural violence in future learning systems?” Learning, Media and Technology, vol. 45, no. 1, pp. 17–30, 2020.
+
+[82] E. Rowe, “Capitalism without capital: the intangible economy of education reform,” Discourse: Studies in the Cultural Politics of Education, vol. 40, no. 2, pp. 271–279, 2019.
+
+[83] M. Ally, “Competency profile of the digital and online teacher in future education,” International Review of Research in Open and Distributed Learning, vol. 20, no. 2, 2019.
+
+[84] P. Song and X. Wang, “A bibliometric analysis of worldwide educational artificial intelligence research development in 8503, 2021, 1,” Downloaded from https://onlinelibrary.wiley.com/doi/10.1155/2021/8812542 by Republic of Macedonia Hinari NPL, Wiley Online Library on [23/07/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License.
+
+
+
+
+# Complexity
+
+approach,” Education and Information Technologies, vol. 25, no. 5, pp. 3515–3539, 2020.
+
+[101] B. Bonami, L. Piazentini, and A. Dala-Possa, “Education, big data and artificial intelligence: mixed methods in digital platforms,” Comunicar, vol. 28, no. 65, pp. 43–52, 2020.
+
+[102] M. M. Ko´c-Januchta, K. J. Schönborn, L. A. Tibell, V. K. Chaudhri, and H. C. Heller, “Engaging with biology by asking questions: investigating students’ interaction and learning with an artificial intelligence-enriched textbook,” Journal of Educational Computing Research, vol. 58, no. 6, pp. 1190–1224, Article ID 0735633120921581, 2020.
+
+[103] B. D. Nye, D. M. Davis, S. Z. Rizvi et al., “Feasibility and usability of MentorPal, a framework for rapid development of virtual mentors,” Journal of Research on Technology in Education, vol. 53, no. 1, pp. 21–43, 2021.
+
+[104] P. T. Webb, S. Sellar, and K. N. Gulson, “Anticipating education: governing habits, memories and policy-futures,” Learning, Media and Technology, vol. 45, no. 3, pp. 284–297, 2020.
+
+[105] S. C. Tsai, C. H. Chen, Y. T. Shiao, J. S. Ciou, and T. N. Wu, “Precision education with statistical learning and deep learning: a case study in Taiwan,” International Journal of Educational Technology in Higher Education, vol. 17, pp. 1–13, 2020.
+
+[106] E. Alyahyan and D. Düştegor, “Predicting academic success in higher education: literature review and best practices,” International Journal of Educational Technology in Higher Education, vol. 17, no. 1, p. 3, 2020.
+
+[107] A. Renz and R. Hilbig, “Prerequisites for artificial intelligence in further education: identification of drivers, barriers, and business models of educational technology companies,” International Journal of Educational Technology in Higher Education, vol. 17, pp. 1–21, 2020.
+
+[108] K. N. Gulson and K. Witzenberger, “Repackaging authority: artificial intelligence, automated governance and education trade shows,” Journal of Education Policy, pp. 1–16, 2020.
+
+[109] N. Kerimbayev, N. Beisov, A. Kovtun, N. Nurym, and A. Akramova, “Robotics in the international educational space: integration and the experience,” Education and Information Technologies, vol. 25, no. 6, pp. 5835–5851, 2020.
+
+[110] S. Fu, H. Gu, and B. Yang, “The affordances of AI-enabled automatic scoring applications on learners’ continuous learning intention: an empirical study in China,” British Journal of Educational Technology, vol. 51, no. 5, pp. 1674–1692, 2020.
+
+[111] S. Z. Salas-Pilco, “The impact of AI and robotics on physical, social-emotional and intellectual learning outcomes: an integrated analytical framework,” British Journal of Educational Technology, vol. 51, no. 5, pp. 1808–1825, 2020.
+
+[112] T. Yıldız, “The most effective element in conceptualization is social interaction, not source or modality: a new model of the conceptual development in children,” Learning, Culture and Social Interaction, vol. 24, Article ID 100377, 2020.
+
+[113] M. G. Tolsgaard, C. K. Boscardin, Y. S. Park, M. M. Cuddy, and S. S. Sebok-Syer, “The role of data science and machine learning in health professions education: practical applications, theoretical contributions, and epistemic beliefs,” Advances in Health Sciences Education, vol. 25, no. 5, pp. 1057–1086, 2020.
+
+[114] L. Hsu, “To CALL or not to CALL: empirical evidence from neuroscience,” Computer Assisted Language Learning, pp. 1–24, 2020.
+
+[115] J.-Y. Wu, Y.-C. Hsiao, and M.-W. Nian, “Using supervised machine learning on large-scale online forums to classify
+
